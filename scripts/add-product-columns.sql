@@ -1,0 +1,3 @@
+-- Add new columns to products table
+ALTER TABLE products ADD COLUMN IF NOT EXISTS featured BOOLEAN DEFAULT FALSE;
+ALTER TABLE products ADD COLUMN IF NOT EXISTS out_of_stock BOOLEAN DEFAULT FALSE;
