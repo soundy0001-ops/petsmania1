@@ -133,7 +133,9 @@ The project can be deployed to any hosting platform that supports Next.js applic
    - `NEXT_PUBLIC_SUPABASE_URL` = (قيمة Supabase URL الخاص بك)
    - `NEXT_PUBLIC_SUPABASE_ANON_KEY` = (public anon key)
    - `SUPABASE_SERVICE_ROLE_KEY` = (service role key — ضعها فقط في بيئات السيرفر، ولا تكشفها للعميل)
-   - `NEXT_PUBLIC_ADMIN_PASSWORD` = (كلمة مرور المشرف المستخدمة في صفحة `/admin`)
+   - `ADMIN_PASSWORD` = (كلمة مرور المشرف الوحيدة والمخزنة على الخادم — ضعها كمتغير Server-only في Vercel)
+
+   ملاحظة: أي متغير يبدأ بـ `NEXT_PUBLIC_` سيصبح متاحًا في الكود المتجه للعميل. لا تضع `ADMIN_PASSWORD` كبادئة `NEXT_PUBLIC_`.
 
    ملاحظة: أي متغير يبدأ بـ `NEXT_PUBLIC_` سيصبح متاحًا في الكود المتجه للعميل.
 
