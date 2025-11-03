@@ -1,14 +1,4 @@
-# Rebranding to petsmania
-
-## Tasks
-- [ ] Update store name from "PetHouse" to "petsmania" in all files
-- [ ] Update logo image to https://i.imgur.com/jySMo1Q.jpeg
-- [ ] Update main store image in homepage to https://i.imgur.com/vSAcMIT.jpeg
-- [ ] Update metadata and titles
-- [ ] Test the changes
-
-## Files to edit
-- components/footer.tsx
-- app/layout.tsx
-- app/page.tsx
-- components/header.tsx
+- [x] Update phone number to "0770874393" in app/contact/page.tsx and components/footer.tsx
+- [x] Update email to "petsmaniaanimalerie@gmail.com" in app/contact/page.tsx and components/footer.tsx
+- [x] Import TikTok icon from lucide-react
+- [x] Add TikTok contact card with link to https://www.tiktok.com/@petsmania34?_r=1&_t=ZS-915b2tILDDL in app/contact/page.tsx and components/footer.tsx

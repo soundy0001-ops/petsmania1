@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { t } from "@/lib/i18n"
 import { useTheme } from "@/components/theme-provider"
-import { Mail, Phone, MapPin, Instagram } from "lucide-react"
+import { Mail, Phone, MapPin, Instagram, Music } from "lucide-react"
 
 export function Footer() {
   const { language } = useTheme()
@@ -77,11 +77,11 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Phone className="w-4 h-4" />
-                <span>0782061149</span>
+                <span>0770874393</span>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Mail className="w-4 h-4" />
-                <span>info@petsmania.com</span>
+                <span>petsmaniaanimalerie@gmail.com</span>
               </li>
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="w-4 h-4 mt-0.5" />
@@ -96,6 +96,17 @@ export function Footer() {
                   className="hover:text-primary transition-colors"
                 >
                   @petsmania_341
+                </a>
+              </li>
+              <li className="flex items-center gap-2 text-muted-foreground">
+                <Music className="w-4 h-4" />
+                <a
+                  href="https://www.tiktok.com/@petsmania34?_r=1&_t=ZS-915b2tILDDL"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors"
+                >
+                  @petsmania34
                 </a>
               </li>
             </ul>

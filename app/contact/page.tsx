@@ -10,7 +10,7 @@ import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
-import { Mail, Phone, MapPin } from "lucide-react"
+import { Mail, Phone, MapPin, Music } from "lucide-react"
 
 export default function ContactPage() {
   const { language } = useTheme()
@@ -106,7 +106,7 @@ export default function ContactPage() {
                     <Phone className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold mb-2">{t("phone", language)}</h3>
-                      <p className="text-muted-foreground">0782061149</p>
+                      <p className="text-muted-foreground">0770874393</p>
                     </div>
                   </div>
                 </Card>
@@ -116,7 +116,7 @@ export default function ContactPage() {
                     <Mail className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold mb-2">{t("email", language)}</h3>
-                      <p className="text-muted-foreground">info@petsmania.com</p>
+                      <p className="text-muted-foreground">petsmaniaanimalerie@gmail.com</p>
                     </div>
                   </div>
                 </Card>
@@ -129,6 +129,16 @@ export default function ContactPage() {
                       <p className="text-muted-foreground">Bordj Bou Arreridj, RUE F</p>
                     </div>
                   </div>
+                </Card>
+
+                <Card className="p-6 hover:shadow-lg transition-shadow">
+                  <a href="https://www.tiktok.com/@petsmania34?_r=1&_t=ZS-915b2tILDDL" target="_blank" rel="noopener noreferrer" className="flex gap-4">
+                    <Music className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                    <div>
+                      <h3 className="font-semibold mb-2">TikTok</h3>
+                      <p className="text-muted-foreground">@petsmania34</p>
+                    </div>
+                  </a>
                 </Card>
 
                 <Card className="p-6 bg-gradient-to-br from-primary/10 to-secondary/10">
