@@ -50,13 +50,13 @@ export function Header({ cartCount }: HeaderProps) {
             <div className="w-10 h-10 relative">
               <Image
                 src="/logo.png"
-                alt="PetHouse"
+                alt="petsmania"
                 width={40}
                 height={40}
                 className="w-full h-full object-contain"
               />
             </div>
-            <span className="font-bold text-lg text-primary hidden sm:inline">PetHouse</span>
+            <span className="font-bold text-lg text-primary hidden sm:inline">petsmania</span>
           </Link>
 
           {/* Desktop Navigation */}

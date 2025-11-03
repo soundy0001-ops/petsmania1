@@ -686,12 +686,12 @@ export default function AdminPage() {
                     </div>
                     <div className="flex justify-end">
                       <img
-                        src={product.image_url || "/placeholder.jpg"}
+                        src={product.image_url || "/tipos-manto-perro.jpg"}
                         alt={product.name}
                         className="w-16 h-16 object-cover rounded-lg border"
                         onError={(e) => {
                           const target = e.target as HTMLImageElement;
-                          target.src = "/placeholder.jpg";
+                          target.src = "/tipos-manto-perro.jpg";
                         }}
                       />
                     </div>

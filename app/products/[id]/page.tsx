@@ -185,7 +185,7 @@ export default function ProductDetailPage({ params }: { params: Promise<{ id: st
           <div className="space-y-4">
             <div className="relative aspect-square bg-gradient-to-br from-primary/10 to-secondary/10 rounded-lg overflow-hidden">
               <Image
-                src={images[selectedImage] || "/placeholder.svg"}
+                src={images[selectedImage] || "/tipos-manto-perro.jpg"}
                 alt={product.name}
                 fill
                 className="object-cover"
@@ -209,7 +209,7 @@ export default function ProductDetailPage({ params }: { params: Promise<{ id: st
                     }`}
                   >
                     <Image
-                      src={img || "/placeholder.svg"}
+                      src={img || "/tipos-manto-perro.jpg"}
                       alt={`${product.name} ${idx}`}
                       width={100}
                       height={100}
@@ -352,7 +352,7 @@ export default function ProductDetailPage({ params }: { params: Promise<{ id: st
                   <Card className="overflow-hidden hover:shadow-lg transition-all hover:scale-105 group cursor-pointer">
                     <div className="aspect-square bg-gradient-to-br from-primary/10 to-secondary/10 overflow-hidden relative">
                       <Image
-                        src={prod.image || "/placeholder.svg"}
+                        src={prod.image || "/tipos-manto-perro.jpg"}
                         alt={prod.name}
                         width={300}
                         height={300}

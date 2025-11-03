@@ -67,7 +67,7 @@ export function OrderItems({ orderId }: OrderItemsProps) {
       {orderItems.map((item) => (
         <div key={item.id} className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
           <img
-            src={item.products.image_url || "/placeholder.svg"}
+            src={item.products.image_url || "/tipos-manto-perro.jpg"}
             alt={item.products.name}
             className="w-12 h-12 object-cover rounded"
           />

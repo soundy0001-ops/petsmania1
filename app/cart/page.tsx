@@ -69,6 +69,21 @@ export default function CartPage() {
 
         <h1 className="text-4xl font-bold mb-8">{t("cart")}</h1>
 
+        {/* Two images added as requested */}
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
+          <img
+            src="https://abripethospital.com/wp-content/uploads/2022/08/pets-cut-out.png"
+            alt="صورة 1"
+            className="w-full max-w-[420px] h-28 sm:h-32 object-cover rounded-lg shadow-md"
+          />
+
+          <img
+            src="https://i0.wp.com/blog.terranea.es/wp-content/uploads/2022/04/tipos-manto-perro.jpg?resize=640%2C320&ssl=1"
+            alt="صورة 2"
+            className="w-full max-w-[420px] h-28 sm:h-32 object-cover rounded-lg shadow-md"
+          />
+        </div>
+
         {cartItems.length === 0 ? (
           <Card className="p-12 text-center">
             <p className="text-muted-foreground text-lg mb-6">{t("emptyCart")}</p>
@@ -85,7 +100,7 @@ export default function CartPage() {
                   <Card key={item.id} className="p-4 flex items-center justify-between gap-4">
                     <div className="flex items-center gap-4">
                       <img
-                        src={item.image_url || "/placeholder.svg"}
+                      src={item.image_url || "/tipos-manto-perro.jpg"}
                         alt={getItemName(item)}
                         className="w-16 h-16 object-cover rounded"
                       />

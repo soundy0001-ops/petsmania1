@@ -266,7 +266,7 @@ export default function PromotionsPage() {
                   </div>
                   <div className="relative h-64 md:h-80">
                     <Image
-                      src={banner.image || "/placeholder.svg"}
+                      src={banner.image || "/tipos-manto-perro.jpg"}
                       alt={banner.title}
                       fill
                       className="object-cover rounded-lg"
@@ -292,8 +292,8 @@ export default function PromotionsPage() {
                 <Link key={deal.id} href={`/products/${deal.id}`}>
                   <Card className="overflow-hidden hover:shadow-lg transition-all hover:scale-105 group cursor-pointer h-full flex flex-col">
                     <div className="relative aspect-square overflow-hidden bg-gradient-to-br from-primary/10 to-secondary/10">
-                      <Image
-                        src={deal.image || "/placeholder.svg"}
+              <Image
+                        src={deal.image || "/tipos-manto-perro.jpg"}
                         alt={deal.title}
                         fill
                         className="object-cover group-hover:scale-110 transition-transform"

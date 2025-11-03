@@ -353,7 +353,7 @@ export default function AnimalCategoryPage({ params }: { params: Promise<{ anima
                       <div className="aspect-square bg-gradient-to-br from-primary/10 to-secondary/10 flex items-center justify-center overflow-hidden relative">
                         {product.image_url ? (
                           <Image
-                            src={product.image_url || "/placeholder.svg"}
+                      src={product.image_url || "/tipos-manto-perro.jpg"}
                             alt={product.name}
                             fill
                             className="object-cover group-hover:scale-110 transition-transform"

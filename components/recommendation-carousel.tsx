@@ -60,7 +60,7 @@ export function RecommendationCarousel({ title, products, reason }: Recommendati
               <Card className="overflow-hidden hover:shadow-lg transition-all hover:scale-105 h-full group">
                 <div className="aspect-square bg-gradient-to-br from-primary/10 to-secondary/10 relative overflow-hidden">
                   <Image
-                    src={product.image || "/placeholder.svg"}
+                    src={product.image || "/tipos-manto-perro.jpg"}
                     alt={product.name}
                     fill
                     className="object-cover group-hover:scale-110 transition-transform"

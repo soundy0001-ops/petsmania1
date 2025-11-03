@@ -86,7 +86,7 @@ export function OutOfStockProducts() {
             {/* Product Image */}
             <div className="relative h-40 overflow-hidden bg-gradient-to-br from-primary/10 to-secondary/10">
               <Image
-                src={product.image_url || "/placeholder.svg"}
+                src={product.image_url || "/tipos-manto-perro.jpg"}
                 alt={product.name}
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-300"

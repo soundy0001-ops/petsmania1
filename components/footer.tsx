@@ -15,7 +15,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="font-bold text-lg text-primary mb-4">PetHouse</h3>
+            <h3 className="font-bold text-lg text-primary mb-4">petsmania</h3>
             <p className="text-muted-foreground text-sm">
               {t("trustedPetSupplies", language)}
             </p>
@@ -81,21 +81,21 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Mail className="w-4 h-4" />
-                <span>info@pethouse.com</span>
+                <span>info@petsmania.com</span>
               </li>
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="w-4 h-4 mt-0.5" />
-                <span>Bordj Bou Arreridj, RUE CHEBABI MESSAOUD</span>
+                <span>Bordj Bou Arreridj, RUE F</span>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Instagram className="w-4 h-4" />
                 <a
-                  href="https://www.instagram.com/pethouse.bba?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                  href="https://www.instagram.com/petsmania_341?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-colors"
                 >
-                  @pethouse.bba
+                  @petsmania_341
                 </a>
               </li>
             </ul>
@@ -103,7 +103,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; 2025 PetHouse. {t("allRightsReserved", language)}</p>
+          <p>&copy; 2025 petsmania. {t("allRightsReserved", language)}</p>
         </div>
       </div>
     </footer>

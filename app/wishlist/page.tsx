@@ -146,7 +146,7 @@ export default function WishlistPage() {
               <Card key={item.id} className="group overflow-hidden">
                 <div className="aspect-square relative overflow-hidden">
                   <Image
-                    src={item.product.image_url || "/placeholder.jpg"}
+                    src={item.product.image_url || "/pets-cut-out.png"}
                     alt={item.product.name}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"

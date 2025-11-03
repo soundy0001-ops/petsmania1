@@ -69,15 +69,15 @@ export const translations = {
     contactUs: "Nous contacter",
     message: "Message",
     send: "Envoyer",
-    bestPetsSupplies: "Bienvenue à",
-    qualityProducts: "Découvrez des fournitures pour animaux de compagnie premium pour chats, chiens, oiseaux et bien d'autres.",
-    fastDelivery: "Des produits de qualité de marques de confiance pour garder vos animaux heureux et en bonne santé.",
-    bestPrices: "Livraison rapide et fiable à votre porte.",
-    whyChooseUs: "Pourquoi nous choisir",
-    qualityProductsDesc: "Articles soigneusement sélectionnés parmi les marques de confiance",
-    fastDeliveryDesc: "Expédition rapide et fiable à votre porte",
-    securePurchase: "Achat sécurisé",
-    securePurchaseDesc: "Transactions sûres et protection des clients",
+    bestPetsSupplies: "Bienvenue chez Petsmania",
+    qualityProducts: "Découvrez notre sélection exclusive de produits premium pour vos animaux de compagnie.",
+    fastDelivery: "Des produits de luxe et de qualité supérieure pour le bien-être de vos compagnons.",
+    bestPrices: "Service personnalisé et livraison express à domicile.",
+    whyChooseUs: "Pourquoi choisir Petsmania",
+    qualityProductsDesc: "Sélection exclusive de produits haut de gamme",
+    fastDeliveryDesc: "Service personnalisé et livraison express",
+    securePurchase: "Garantie luxe",
+    securePurchaseDesc: "Qualité exceptionnelle et satisfaction garantie",
 
     // Admin
     adminPanel: "Panneau d'administration",
@@ -95,9 +95,9 @@ export const translations = {
     wishlist: "Liste de souhaits",
 
     // Home Page
-    shopByCategory: "Acheter par catégorie",
+    shopByCategory: "Explorer nos collections premium",
     freeShippingFrom: "Livraison gratuite à partir de 10.000 DA",
-    startShopping: "Commencer les achats",
+    startShopping: "Commencer votre expérience premium",
 
     // About Page
     ourStory: "Notre histoire",
@@ -125,7 +125,7 @@ export const translations = {
 
     // Footer
     company: "Entreprise",
-    trustedPetSupplies: "Votre magasin de confiance pour les fournitures pour animaux de compagnie avec des produits de qualité pour tous vos animaux bien-aimés.",
+    trustedPetSupplies: "Votre destination premium pour les produits haut de gamme pour animaux de compagnie - l'excellence pour vos compagnons bien-aimés.",
     allRightsReserved: "Tous droits réservés.",
 
     // Common
@@ -206,15 +206,15 @@ export const translations = {
     contactUs: "اتصل بنا",
     message: "الرسالة",
     send: "إرسال",
-    bestPetsSupplies: "مرحبا بك في",
-    qualityProducts: "اكتشف المنتجات المتميزة لحيواناتك الأليفة للقطط والكلاب والطيور وغيرها الكثير.",
-    fastDelivery: "منتجات عالية الجودة من العلامات التجارية الموثوقة للحفاظ على سعادة حيواناتك وصحتها.",
-    bestPrices: "توصيل سريع وموثوق إلى باب منزلك.",
-    whyChooseUs: "لماذا تختارنا",
-    qualityProductsDesc: "منتجات تم اختيارها بعناية من العلامات التجارية الموثوقة",
-    fastDeliveryDesc: "شحن سريع وموثوق إلى باب منزلك",
-    securePurchase: "شراء آمن",
-    securePurchaseDesc: "معاملات آمنة وحماية العملاء",
+    bestPetsSupplies: "مرحباً بك في بيتسمانيا",
+    qualityProducts: "اكتشف مجموعتنا الفاخرة من المنتجات المتميزة لحيواناتك الأليفة.",
+    fastDelivery: "منتجات فاخرة وعالية الجودة لضمان سعادة وصحة حيواناتك.",
+    bestPrices: "خدمة شخصية وتوصيل سريع إلى باب منزلك.",
+    whyChooseUs: "لماذا تختار بيتسمانيا",
+    qualityProductsDesc: "اختيار حصري للمنتجات الفاخرة عالية الجودة",
+    fastDeliveryDesc: "خدمة شخصية وتوصيل سريع إلى باب منزلك",
+    securePurchase: "ضمان فاخر",
+    securePurchaseDesc: "جودة استثنائية وضمان الرضا الكامل",
 
     // Admin
     adminPanel: "لوحة الإدارة",
@@ -232,9 +232,9 @@ export const translations = {
     wishlist: "قائمة الرغبات",
 
     // Home Page
-    shopByCategory: "تسوق حسب الفئة",
+    shopByCategory: "استكشف مجموعاتنا الفاخرة",
     freeShippingFrom: "شحن مجاني من 10.000 دج",
-    startShopping: "ابدأ التسوق",
+    startShopping: "ابدأ تجربتك الفاخرة",
 
     // About Page
     ourStory: "قصتنا",
@@ -262,7 +262,7 @@ export const translations = {
 
     // Footer
     company: "الشركة",
-    trustedPetSupplies: "متجرك الموثوق لمستلزمات الحيوانات الأليفة مع منتجات عالية الجودة لجميع حيواناتك الأليفة.",
+    trustedPetSupplies: "وجهتك الفاخرة لمنتجات الحيوانات الأليفة عالية الجودة - التميز لرفاقك الأعزاء.",
     allRightsReserved: "جميع الحقوق محفوظة.",
 
     // Common

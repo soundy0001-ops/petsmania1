@@ -219,7 +219,7 @@ export default function CheckoutPage() {
                   <div key={item.id} className="flex justify-between text-sm">
                     <div className="flex items-center gap-2">
                       <img
-                        src={item.image_url || "/placeholder.svg"}
+                      src={item.image_url || "/tipos-manto-perro.jpg"}
                         alt={item.name_fr}
                         className="w-8 h-8 object-cover rounded"
                       />

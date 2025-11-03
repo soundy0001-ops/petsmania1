@@ -233,7 +233,7 @@ export default function ShopPage() {
                 <div className="aspect-square bg-gradient-to-br from-primary/10 to-secondary/10 flex items-center justify-center overflow-hidden relative">
                   {product.image_url ? (
                     <img
-                      src={product.image_url || "/placeholder.svg"}
+                      src={product.image_url || "/tipos-manto-perro.jpg"}
                       alt={getProductName(product)}
                       className="w-full h-full object-cover"
                     />

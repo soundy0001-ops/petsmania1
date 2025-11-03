@@ -116,7 +116,7 @@ export default function ContactPage() {
                     <Mail className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold mb-2">{t("email", language)}</h3>
-                      <p className="text-muted-foreground">info@pethouse.com</p>
+                      <p className="text-muted-foreground">info@petsmania.com</p>
                     </div>
                   </div>
                 </Card>
@@ -126,7 +126,7 @@ export default function ContactPage() {
                     <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold mb-2">{t("address", language)}</h3>
-                      <p className="text-muted-foreground">Bordj Bou Arreridj, RUE CHEBABI MESSAOUD</p>
+                      <p className="text-muted-foreground">Bordj Bou Arreridj, RUE F</p>
                     </div>
                   </div>
                 </Card>
@@ -148,7 +148,7 @@ export default function ContactPage() {
             <h2 className="text-3xl font-bold text-center mb-12">{t("findUs", language)}</h2>
             <div className="w-full h-96 bg-gradient-to-br from-primary/10 to-secondary/10 rounded-lg flex items-center justify-center overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4006.076325959675!2d4.7502797999999995!3d36.068679200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128cbd115500459d%3A0xda54a6eed77b7473!2sPet%20house%20BBA!5e1!3m2!1sen!2sdz!4v1761926206028!5m2!1sen!2sdz"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4005.4551494835205!2d4.7748554!3d36.080874699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128cbd547e5e75bf%3A0xeddc6d390870c024!2sPetsmania%20Animalerie!5e1!3m2!1sen!2sdz!4v1762126593499!5m2!1sen!2sdz"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
