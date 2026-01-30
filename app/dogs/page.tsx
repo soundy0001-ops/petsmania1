@@ -9,6 +9,8 @@ import {
 } from '@/lib/data'
 import type { AnimalType } from '@/lib/types'
 
+export const dynamic = 'force-dynamic'
+
 const ANIMAL_TYPE: AnimalType = 'dog'
 const ANIMAL_NAME = 'Dogs'
 const ANIMAL_EMOJI = '🐕'
